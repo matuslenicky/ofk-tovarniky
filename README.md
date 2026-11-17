@@ -6,17 +6,13 @@ Ukážka: https://matuslenicky.github.io/ofk-tovarniky/ · administrácia (uká�
 
 ## Vzhľad
 
-**„Klasy“** podľa erbu: modrý štít, v červenom poli tri zlaté klasy.
+**„Rozdelená obrazovka“ (dizajn v2, 17. 11. 2026).** Svetlý podklad, tmavomodrá z erbu, zlatá a červená len v detailoch. Písmo Sora (nadpisy) a Spectral (text).
 
-- poradie áčka v **dožinkovom venci** z klasov na úvode (po jeseni 2026 prvé miesto v V. lige Severozápad),
-- **pás zlatého poľa s klasmi** pod hlavičkou podstránok a nad pätou, história klubu ako **steblo so zrnami**,
-- **mladé klasy**: mládežnícke tímy, prvé miesta zvýraznené,
-- **derby so susednými Topoľčanmi** na červenom poli (Tovarníky boli v rokoch 1976 – 1992 súčasťou mesta), **pohárová kronika** po sezónach,
-- citát z obecného občasníka **„Ihrisko je naše!“** pri ihrisku,
-- hlavička v dvoch riadkoch: modrá s erbom a telefónom, pod ňou červený pás s menu; na telefóne menu ako dlaždice, ktoré sa vysunú zhora,
-- písmo **Zilla Slab** (pätkové, ako tlač starých plagátov) a **Karla**.
+- na úvode vľavo pevný panel s erbom, menom klubu, miestom v tabuľke a najbližším zápasom, vpravo sa posúvajú výsledky, program, tabuľka a derby s Topoľčanmi,
+- na stránke Klub rovnaké rozdelenie: vľavo erb a citát „Ihrisko je naše!“, vpravo história, Slovenský pohár, ihrisko a obec,
+- menu na telefóne je tmavomodrá plocha cez celú obrazovku.
 
-Klub nemá vlastné fotky na webe ani sociálne siete, preto je vzhľad postavený na grafike z erbu. Fotky od klubu sa dajú doplniť neskôr.
+Web sa skladá zo spoločného jadra v2 (`kluby-siet/engine`: `python assemble.py <web>`), vlastný je `src/site.js` (úvod, Klub, nastavenia) a `src/css/skin.css`.
 
 ## Obsah a zdroje
 

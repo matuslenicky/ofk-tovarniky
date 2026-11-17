@@ -1,7 +1,6 @@
-/* Zilla Slab, Karla (SIL OFL 1.1), orezané na latinku strednej Európy */
-@font-face{font-family:'Zilla Slab';font-style:italic;font-weight:700;font-display:swap;src:url(zilla-slab-700i.woff) format("woff")}
-@font-face{font-family:'Zilla Slab';font-style:normal;font-weight:500;font-display:swap;src:url(zilla-slab-500.woff) format("woff")}
-@font-face{font-family:'Zilla Slab';font-style:normal;font-weight:700;font-display:swap;src:url(zilla-slab-700.woff) format("woff")}
-@font-face{font-family:'Karla';font-style:normal;font-weight:400;font-display:swap;src:url(karla-400.woff) format("woff")}
-@font-face{font-family:'Karla';font-style:normal;font-weight:600;font-display:swap;src:url(karla-600.woff) format("woff")}
-@font-face{font-family:'Karla';font-style:normal;font-weight:700;font-display:swap;src:url(karla-700.woff) format("woff")}
+/* Sora, Spectral (SIL OFL 1.1), orezané na latinku strednej Európy */
+@font-face{font-family:'Sora';font-style:normal;font-weight:600;font-display:swap;src:url(sora-600.woff) format("woff")}
+@font-face{font-family:'Sora';font-style:normal;font-weight:700;font-display:swap;src:url(sora-700.woff) format("woff")}
+@font-face{font-family:'Spectral';font-style:italic;font-weight:400;font-display:swap;src:url(spectral-400i.woff) format("woff")}
+@font-face{font-family:'Spectral';font-style:normal;font-weight:400;font-display:swap;src:url(spectral-400.woff) format("woff")}
+@font-face{font-family:'Spectral';font-style:normal;font-weight:600;font-display:swap;src:url(spectral-600.woff) format("woff")}
