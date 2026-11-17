@@ -282,22 +282,31 @@ function card(m, R, { big = false, label = '', self = false } = {}) {
 </article>`;
 }
 
-// riadok zápasu v zozname
+// program ako trhací kalendár (lístok s veľkým číslom dňa), výsledky ako snopy: karta s veľkým skóre a klasom vo farbe výsledku
+const MONTHS_S = ['jan', 'feb', 'mar', 'apr', 'máj', 'jún', 'júl', 'aug', 'sep', 'okt', 'nov', 'dec'];
 function matchRow(m, R, { showTeam = true } = {}) {
-  const right = m.score
-    ? `<span class="mr-score res-bg--${m.res}" title="${RES[m.res]}"><span class="sr">${RES[m.res]} </span>${esc(m.score)}</span>`
-    : m.past ? '<span class="mr-score mr-score--none">bez výsl.</span>' : `<span class="mr-time">${esc(m.time)}</span>`;
   const href = m.detail || !m.past ? ` href="${R}${m.url}"` : '';
   const tag = href ? 'a' : 'div';
-  return `<li class="mrow" data-team="${m.team}" data-where="${m.home ? 'doma' : 'vonku'}"><${tag} class="mrow-in"${href}>
-  <span class="mr-date"><span class="mr-day">${dDay(m.date)}</span><time datetime="${m.date}">${dShort(m.date)}</time></span>
-  ${logo(m.oppSpace, m.opponent, R, 30)}
-  <span class="mr-main"><span class="mr-opp">${esc(m.opponent)}</span>
-  <span class="mr-sub">${showTeam ? `<b class="mr-team">${esc(m.teamObj.short)}</b>` : ''}${m.home ? 'doma' : 'vonku'}, ${esc(m.cup ? m.comp : m.roundName || m.comp)}</span></span>
-  ${right}
+  const d = dObj(m.date);
+  const team = showTeam ? `${esc(m.teamObj.short.replace('-mužstvo', ''))}&nbsp;· ` : '';
+  const comp = esc(m.cup ? m.comp : m.roundName || m.comp);
+  if (!m.past) {
+    return `<li class="mrow" data-team="${m.team}" data-where="${m.home ? 'doma' : 'vonku'}"><${tag} class="leaf"${href}>
+  <span class="leaf-p" aria-hidden="true"><span class="leaf-m">${MONTHS_S[d.getUTCMonth()]}</span><b class="leaf-d">${d.getUTCDate()}</b><span class="leaf-w">${dDay(m.date)}</span></span>
+  <span class="leaf-b"><span class="sr">${dLong(m.date)}, </span><span class="leaf-o">${logo(m.oppSpace, m.opponent, R, 26)}<span>${esc(m.opponent)}</span></span><span class="leaf-k">${team}${m.home ? 'doma' : 'vonku'}&nbsp;· ${comp}</span></span>
+  <span class="leaf-t"><span class="sr">výkop </span>${esc(m.time || '–')}</span>
+</${tag}></li>`;
+  }
+  const res = m.res || 'n';
+  return `<li class="mrow" data-team="${m.team}" data-where="${m.home ? 'doma' : 'vonku'}"><${tag} class="sheaf sheaf--${res}"${href}>
+  <span class="sheaf-k"><time datetime="${m.date}">${dDay(m.date)} ${dShort(m.date)}</time>&nbsp;· ${team}${m.home ? 'doma' : 'vonku'}</span>
+  <span class="sheaf-s">${m.score ? `<span class="sr">${RES[m.res]}, </span>${esc(m.score)}` : '<span class="sheaf-none">bez výsledku</span>'}</span>
+  <span class="sheaf-o">${logo(m.oppSpace, m.opponent, R, 24)}<span>${esc(m.opponent)}</span></span>
+  ${wheat('sheaf-w')}
 </${tag}></li>`;
 }
-const matchList = (list, R, opts) => `<ol class="mlist">${list.map((m) => matchRow(m, R, opts)).join('')}</ol>`;
+// zoznam: samé odohrané zápasy = mriežka snopov, inak kalendár
+const matchList = (list, R, opts) => `<ol class="mlist ${list.length && list.every((m) => m.past) ? 'mlist--sheaves' : 'mlist--leaves'}">${list.map((m) => matchRow(m, R, opts)).join('')}</ol>`;
 
 function tableHtml(tb, R, { compact = false, caption = '' } = {}) {
   let rows = tb.rows;
