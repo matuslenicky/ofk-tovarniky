@@ -1,0 +1,1169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OFK Tovarníky//Zapasy//SK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OFK Tovarníky – všetky zápasy
+X-WR-TIMEZONE:Europe/Bratislava
+BEGIN:VTIMEZONE
+TZID:Europe/Bratislava
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:zapas-6a4d1c0bd14e91f303920c2e@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260808T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – FC Slovan Hlohovec 2:2
+DESCRIPTION:V. liga Severozápad\, 1. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa5d14e91f303b8b318@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260809T133000
+DURATION:PT2H
+SUMMARY:U19: TJ Družstevník Jacovce – OFK Tovarníky U19 7:2
+DESCRIPTION:IV. liga U19 ZsFZ\, 1. kolo\nZápas vonku
+LOCATION:TJ Družstevník Jacovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0bd14e91f303920b82@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260815T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – TJ Partizán Domaniža 2:0
+DESCRIPTION:V. liga Severozápad\, 2. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa5d14e91f303b8b175@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260816T133000
+DURATION:PT2H
+SUMMARY:U19: OTJ Horné Obdokovce – OFK Tovarníky U19 10:0
+DESCRIPTION:IV. liga U19 ZsFZ\, 2. kolo\nZápas vonku
+LOCATION:OTJ Horné Obdokovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa5d14e91f303b8b327@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260823T133000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – MFK Baník Handlová 3:2
+DESCRIPTION:IV. liga U19 ZsFZ\, 3. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0bd14e91f303920bcf@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260823T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: ZFC 1939 Trenčín – OFK Tovarníky 0:3
+DESCRIPTION:V. liga Severozápad\, 3. kolo\nZápas vonku
+LOCATION:ihrisko Záblatie
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa5d14e91f303b8b33d@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260829T100000
+DURATION:PT2H
+SUMMARY:U19: FK Junior Kanianka – OFK Tovarníky U19 0:3
+DESCRIPTION:IV. liga U19 ZsFZ\, 4. kolo\nZápas vonku
+LOCATION:FK Junior Kanianka
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea6b02131318ec6a5ec@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260829T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – FK Koniarovce 3:3
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 1. kolo\nDo
+ máci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0cd14e91f303920cac@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260829T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – TFK Opatová 4:2
+DESCRIPTION:V. liga Severozápad\, 4. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ec68@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260830T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – FC Topoľčany B 5:3
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 1. kolo\nDo
+ máci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec7290b@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260831T173000
+DURATION:PT2H
+SUMMARY:U9: OFK Tovarníky U9 – OFK Ludanice
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 1. kolo\nDomáci z
+ ápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f1ee@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260831T180000
+DURATION:PT2H
+SUMMARY:U11: OFK Tovarníky U11 – OFK Tesáre 21:2
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 1. kolo\nDomáci 
+ zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f239@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260904T170000
+DURATION:PT2H
+SUMMARY:U11: FK Koniarovce – OFK Tovarníky U11 2:17
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 2. kolo\nZápas v
+ onku
+LOCATION:TJ Koniarovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ec30@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260905T103000
+DURATION:PT2H
+SUMMARY:U13: OFK obce Prašice – OFK Tovarníky U13 3:5
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 2. kolo\nZ
+ ápas vonku
+LOCATION:OFK Prašice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea6b02131318ec6a4e9@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260906T103000
+DURATION:PT2H
+SUMMARY:U15: OFK obce Prašice – OFK Tovarníky U15 1:8
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 2. kolo\nZ
+ ápas vonku
+LOCATION:OFK Prašice - NHP -Obec Velušovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa5d14e91f303b8b4df@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260906T123000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – TJ Družstevník Horná Nitra Nedožer
+ y-Brezany 4:2
+DESCRIPTION:IV. liga U19 ZsFZ\, 5. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0cd14e91f303920dc4@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260906T160000
+DURATION:PT2H
+SUMMARY:A-mužstvo: MFK Vrbové – OFK Tovarníky 2:4
+DESCRIPTION:V. liga Severozápad\, 5. kolo\nZápas vonku
+LOCATION:Mestský futbalový štadión Jozefa Adamca vo Vrbovom
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72a81@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260907T170000
+DURATION:PT2H
+SUMMARY:U9: OFK obce Prašice – OFK Tovarníky U9
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 2. kolo\nZápas vo
+ nku
+LOCATION:OFK Prašice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa6d14e91f303b8b561@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260912T123000
+DURATION:PT2H
+SUMMARY:U19: OFK Kovarce – OFK Tovarníky U19 0:3
+DESCRIPTION:IV. liga U19 ZsFZ\, 6. kolo\nZápas vonku
+LOCATION:OFK Kovarce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0cd14e91f303920f0e@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260912T160000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – TJ Družstevník Hlboké 2:0
+DESCRIPTION:V. liga Severozápad\, 6. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec729c8@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260914T163000
+DURATION:PT2H
+SUMMARY:U9: OFK Tovarníky U9 – OFK Práznovce
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 3. kolo\nDomáci z
+ ápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f22a@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260915T170000
+DURATION:PT2H
+SUMMARY:U11: OFK Tovarníky U11 – OFK obce Prašice 13:4
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 3. kolo\nDomáci 
+ zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f1d7@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260918T163000
+DURATION:PT2H
+SUMMARY:U11: OFK Tovarníky U11 – TJ Slovan Preseľany 15:1
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 4. kolo\nDomáci 
+ zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea6b02131318ec6a5fa@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260919T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – TJ Zlatý Klas Urmince 15:0
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 4. kolo\nDo
+ máci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0cd14e91f3039210bb@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260919T153000
+DURATION:PT2H
+SUMMARY:A-mužstvo: ŠK LR Crystal – OFK Tovarníky 0:1
+DESCRIPTION:V. liga Severozápad\, 7. kolo\nZápas vonku
+LOCATION:ŠK LR Crystal
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ed65@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260920T093000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – TJ Slovan Krušovce 6:0
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 4. kolo\nDo
+ máci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa6d14e91f303b8b6ba@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260920T113000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – TJ - ŠK Radošina 7:0
+DESCRIPTION:IV. liga U19 ZsFZ\, 7. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72b91@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260921T163000
+DURATION:PT2H
+SUMMARY:U9: OFK Solčany – OFK Tovarníky U9
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 4. kolo\nZápas vo
+ nku
+LOCATION:Štadión OFK Solčany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f1d2@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260925T160000
+DURATION:PT2H
+SUMMARY:U11: TJ Slovan Krušovce – OFK Tovarníky U11 1:26
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 5. kolo\nZápas v
+ onku
+LOCATION:Krušovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ee9e@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260926T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany – OFK Tovarníky U13 1:2
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 5. kolo\nZ
+ ápas vonku
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea6b02131318ec6a6c3@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260926T130000
+DURATION:PT2H
+SUMMARY:U15: OFK Ludanice – OFK Tovarníky U15 3:5
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 5. kolo\nZ
+ ápas vonku
+LOCATION:Ludanice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0dd14e91f303921291@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260926T153000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – TJ Nový Život Veľké Uherce 1:1
+DESCRIPTION:V. liga Severozápad\, 8. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa6d14e91f303b8b667@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20260927T113000
+DURATION:PT2H
+SUMMARY:U19: TJ Slovan Bojná – OFK Tovarníky U19 0:1
+DESCRIPTION:IV. liga U19 ZsFZ\, 8. kolo\nZápas vonku
+LOCATION:TJ Slovan Bojná
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6efbf@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261003T100000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – TJ Slovan Bojná 7:5
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 6. kolo\nDo
+ máci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea7b02131318ec6a858@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261003T123000
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – OFK Kovarce 3:3
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 6. kolo\nDo
+ máci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff4db02131318ec80502@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261003T130000
+DURATION:PT2H
+SUMMARY:U11: OFK Tesáre – OFK Tovarníky U11 3:6
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 6. kolo\nZápas v
+ onku
+LOCATION:OFK Tesáre
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0dd14e91f30392146e@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261004T150000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Brvnište – OFK Tovarníky 0:1
+DESCRIPTION:V. liga Severozápad\, 9. kolo\nZápas vonku
+LOCATION:Slovan Brvnište
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72b73@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261005T160000
+DURATION:PT2H
+SUMMARY:U9: OFK Tovarníky U9 – TJ Slovan Preseľany
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 6. kolo\nDomáci z
+ ápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa6d14e91f303b8b856@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261007T160000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – OFK Práznovce 7:0
+DESCRIPTION:IV. liga U19 ZsFZ\, 9. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f36c@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261009T153000
+DURATION:PT2H
+SUMMARY:U11: OFK Tovarníky U11 – FK Koniarovce 16:1
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 7. kolo\nDomáci 
+ zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4abcd14e91f303b8ee3e@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261010T110000
+DURATION:PT2H
+SUMMARY:U19: OFK obce Prašice – OFK Tovarníky U19 2:3
+DESCRIPTION:IV. liga U19 ZsFZ\, 10. kolo\nZápas vonku
+LOCATION:TJ Koniarovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0dd14e91f30392122c@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261010T150000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – FK Baník Lehota pod Vtáčnikom B 
+ 1:2
+DESCRIPTION:V. liga Severozápad\, 10. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ef45@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261011T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Ludanice – OFK Tovarníky U13 2:2
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 7. kolo\nZ
+ ápas vonku
+LOCATION:Ludanice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea7b02131318ec6a7a6@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261011T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Veľké Ripňany – OFK Tovarníky U15 0:3
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 7. kolo\nZ
+ ápas vonku
+LOCATION:OFK Veľké Ripňany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72bf1@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261012T153000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Veľké Bedzany – OFK Tovarníky U9
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 7. kolo\nZápas vo
+ nku
+LOCATION:Veľké Bedzany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f36a@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261016T150000
+DURATION:PT2H
+SUMMARY:U11: OFK obce Prašice – OFK Tovarníky U11 5:12
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 8. kolo\nZápas v
+ onku
+LOCATION:OFK Prašice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f0ac@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261017T130000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – OFK Nitrianska Blatnica 5:3
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 8. kolo\nDo
+ máci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0dd14e91f3039214c2@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261017T140000
+DURATION:PT2H
+SUMMARY:A-mužstvo: FK Tempo Partizánske – OFK Tovarníky 1:1
+DESCRIPTION:V. liga Severozápad\, 11. kolo\nZápas vonku
+LOCATION:Karola Jokla - hlavná plocha
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa7d14e91f303b8b9b8@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261018T103000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – TJ Slovan Krušovce 2:2
+DESCRIPTION:IV. liga U19 ZsFZ\, 11. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec72eb0@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261019T150000
+DURATION:PT2H
+SUMMARY:U9: OFK Tovarníky U9 – OFK Veľké Ripňany
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 8. kolo\nDomáci z
+ ápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea7b02131318ec6a829@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261020T160000
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – TJ Slovan Bojná 7:1
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 8. kolo\nDo
+ máci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f4b9@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261023T150000
+DURATION:PT2H
+SUMMARY:U11: TJ Slovan Preseľany – OFK Tovarníky U11 7:8
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 9. kolo\nZápas v
+ onku
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f23e@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261024T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Veľké Ripňany – OFK Tovarníky U13 1:3
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 9. kolo\nZ
+ ápas vonku
+LOCATION:OFK Veľké Ripňany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea8b02131318ec6b20a@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261024T103000
+DURATION:PT2H
+SUMMARY:U15: OTJ Horné Obdokovce – OFK Tovarníky U15 0:9
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 9. kolo\nZ
+ ápas vonku
+LOCATION:OTJ Horné Obdokovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0dd14e91f303921387@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261024T140000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – TJ Partizán Prečín 1:0
+DESCRIPTION:V. liga Severozápad\, 12. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aaed14e91f303b8d121@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261025T103000
+DURATION:PT2H
+SUMMARY:U19: ŠC Chynorany – OFK Tovarníky U19 1:2
+DESCRIPTION:IV. liga U19 ZsFZ\, 12. kolo\nZápas vonku
+LOCATION:Štadión OŠK Chynorany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec72ee9@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261026T150000
+DURATION:PT2H
+SUMMARY:U9: FC Topoľčany B – OFK Tovarníky U9
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 9. kolo\nZápas vo
+ nku
+LOCATION:Štadión Vojtecha Schotterta
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f436@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261030T150000
+DURATION:PT2H
+SUMMARY:U11: OFK Tovarníky U11 – TJ Slovan Krušovce 28:1
+DESCRIPTION:III. liga prípraviek U11 ObFZ Topoľčany\, 10. kolo\nDomáci
+  zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0dd14e91f30392163e@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261031T140000
+DURATION:PT2H
+SUMMARY:A-mužstvo: ŠK Cífer 1929 – OFK Tovarníky 5:0
+DESCRIPTION:V. liga Severozápad\, 13. kolo\nZápas vonku
+LOCATION:Štadión ŠK Cífer 1929
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f144@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261031T150000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – TJ Družstevník Jacovce 3:1
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 10. kolo\nD
+ omáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa7d14e91f303b8bb4b@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261101T100000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – TJ Tatran Kamenec pod Vtáčnikom 3:0
+DESCRIPTION:IV. liga U19 ZsFZ\, 13. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea7b02131318ec6abbd@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261102T151500
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – OFK Krnča 6:0
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 10. kolo\nD
+ omáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f2f1@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261107T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Krnča – OFK Tovarníky U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 11. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea8b02131318ec6af6a@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261107T103000
+DURATION:PT2H
+SUMMARY:U15: TJ - ŠK Radošina – OFK Tovarníky U15 1:7
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 11. kolo\nZ
+ ápas vonku
+LOCATION:TJ ŠK Radošina
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0dd14e91f303921713@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261107T133000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – FK Senica 5:0
+DESCRIPTION:V. liga Severozápad\, 14. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa8d14e91f303b8be7f@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261108T100000
+DURATION:PT2H
+SUMMARY:U19: ŠK Vegum Dolné Vestenice – OFK Tovarníky U19 3:4
+DESCRIPTION:IV. liga U19 ZsFZ\, 14. kolo\nZápas vonku
+LOCATION:ŠK VEGUM Dolné Vestenice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa7d14e91f303b8bd34@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261115T100000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – TJ Nový Život Veľké Uherce 0:1
+DESCRIPTION:IV. liga U19 ZsFZ\, 15. kolo\nDomáci zápas
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0ed14e91f30392197e@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20261115T133000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Spartak Kvašov – OFK Tovarníky 0:2
+DESCRIPTION:V. liga Severozápad\, 15. kolo\nZápas vonku
+LOCATION:Športové centrum ISKRA Borčice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa8d14e91f303b8c124@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270307T110000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – TJ Družstevník Jacovce
+DESCRIPTION:IV. liga U19 ZsFZ\, 16. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0ed14e91f303921945@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270307T143000
+DURATION:PT2H
+SUMMARY:A-mužstvo: FC Slovan Hlohovec – OFK Tovarníky
+DESCRIPTION:V. liga Severozápad\, 16. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa8d14e91f303b8bec8@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270314T110000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – OTJ Horné Obdokovce
+DESCRIPTION:IV. liga U19 ZsFZ\, 17. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0fd14e91f303921b9e@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270314T143000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Partizán Domaniža – OFK Tovarníky
+DESCRIPTION:V. liga Severozápad\, 17. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa8d14e91f303b8c0fb@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270320T113000
+DURATION:PT2H
+SUMMARY:U19: MFK Baník Handlová – OFK Tovarníky U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 18. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0fd14e91f303921b68@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270321T150000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – ZFC 1939 Trenčín
+DESCRIPTION:V. liga Severozápad\, 18. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea9b02131318ec6b444@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270328T103000
+DURATION:PT2H
+SUMMARY:U15: FK Koniarovce – OFK Tovarníky U15
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 12. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f3bb@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270328T110000
+DURATION:PT2H
+SUMMARY:U13: FC Topoľčany B – OFK Tovarníky U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 12. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa8d14e91f303b8c179@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270328T113000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – FK Junior Kanianka
+DESCRIPTION:IV. liga U19 ZsFZ\, 19. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0fd14e91f303921c3a@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270328T150000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TFK Opatová – OFK Tovarníky
+DESCRIPTION:V. liga Severozápad\, 19. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea7b02131318ec6acb2@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270403T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – OFK obce Prašice
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 13. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa9d14e91f303b8c2d6@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270403T123000
+DURATION:PT2H
+SUMMARY:U19: TJ Družstevník Horná Nitra Nedožery-Brezany – OFK Tovar
+ níky U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 20. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f3bc@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270404T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – OFK obce Prašice
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 13. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0fd14e91f303921b99@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270404T160000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – MFK Vrbové
+DESCRIPTION:V. liga Severozápad\, 20. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aa9d14e91f303b8c38c@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270411T123000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – OFK Kovarce
+DESCRIPTION:IV. liga U19 ZsFZ\, 21. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0fd14e91f303921f0d@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270411T160000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Družstevník Hlboké – OFK Tovarníky
+DESCRIPTION:V. liga Severozápad\, 21. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72df2@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270412T163000
+DURATION:PT2H
+SUMMARY:U9: OFK Ludanice – OFK Tovarníky U9
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 10. kolo\nZápas v
+ onku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f54c@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270417T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Krušovce – OFK Tovarníky U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 15. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea8b02131318ec6af27@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270418T103000
+DURATION:PT2H
+SUMMARY:U15: TJ Zlatý Klas Urmince – OFK Tovarníky U15
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 15. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aabd14e91f303b8c746@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270418T130000
+DURATION:PT2H
+SUMMARY:U19: TJ - ŠK Radošina – OFK Tovarníky U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 22. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c0fd14e91f303921df2@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270418T163000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – ŠK LR Crystal
+DESCRIPTION:V. liga Severozápad\, 22. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec72f89@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270419T163000
+DURATION:PT2H
+SUMMARY:U9: OFK Tovarníky U9 – OFK obce Prašice
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 11. kolo\nDomáci 
+ zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea8b02131318ec6b068@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270424T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – OFK Ludanice
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 16. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f454@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270425T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – TJ Slovan Preseľany
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 16. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aabd14e91f303b8c6f5@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270425T130000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – TJ Slovan Bojná
+DESCRIPTION:IV. liga U19 ZsFZ\, 23. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c10d14e91f3039221a3@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270425T160000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Nový Život Veľké Uherce – OFK Tovarníky
+DESCRIPTION:V. liga Severozápad\, 23. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec73044@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270426T163000
+DURATION:PT2H
+SUMMARY:U9: OFK Práznovce – OFK Tovarníky U9
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 12. kolo\nZápas v
+ onku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f5fd@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270501T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Bojná – OFK Tovarníky U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 17. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aacd14e91f303b8c970@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270501T133000
+DURATION:PT2H
+SUMMARY:U19: OFK Práznovce – OFK Tovarníky U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 24. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c10d14e91f303922179@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270501T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – TJ Slovan Brvnište
+DESCRIPTION:V. liga Severozápad\, 24. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea9b02131318ec6b3cd@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270502T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Kovarce – OFK Tovarníky U15
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 17. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec732af@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270503T170000
+DURATION:PT2H
+SUMMARY:U9: OFK Tovarníky U9 – OFK Solčany
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 13. kolo\nDomáci 
+ zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea8b02131318ec6b0b7@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270508T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – OFK Veľké Ripňany
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 18. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f578@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270509T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – OFK Ludanice
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 18. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4abed14e91f303b8f31d@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270509T133000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – OFK obce Prašice
+DESCRIPTION:IV. liga U19 ZsFZ\, 25. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c10d14e91f303922149@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270509T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: FK Baník Lehota pod Vtáčnikom B – OFK Tovarníky
+DESCRIPTION:V. liga Severozápad\, 25. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f67f@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270515T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Nitrianska Blatnica – OFK Tovarníky U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 19. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea9b02131318ec6b415@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270516T103000
+DURATION:PT2H
+SUMMARY:U15: TJ Slovan Bojná – OFK Tovarníky U15
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 19. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aacd14e91f303b8cb46@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270516T133000
+DURATION:PT2H
+SUMMARY:U19: TJ Slovan Krušovce – OFK Tovarníky U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 26. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c10d14e91f30392215f@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270516T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – FK Tempo Partizánske
+DESCRIPTION:V. liga Severozápad\, 26. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec732ab@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270517T170000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Preseľany – OFK Tovarníky U9
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 15. kolo\nZápas v
+ onku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea8b02131318ec6b19a@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270522T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – OTJ Horné Obdokovce
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 20. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fed9b02131318ec70571@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270523T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – OFK Veľké Ripňany
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 20. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4ab1d14e91f303b8d910@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270523T133000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – ŠC Chynorany
+DESCRIPTION:IV. liga U19 ZsFZ\, 27. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c10d14e91f30392237c@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270523T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Partizán Prečín – OFK Tovarníky
+DESCRIPTION:V. liga Severozápad\, 27. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec7318f@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270524T170000
+DURATION:PT2H
+SUMMARY:U9: OFK Tovarníky U9 – TJ Slovan Veľké Bedzany
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 16. kolo\nDomáci 
+ zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f711@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270530T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Jacovce – OFK Tovarníky U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 21. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea8b02131318ec6b16d@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270530T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Krnča – OFK Tovarníky U15
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 21. kolo\nZ
+ ápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aadd14e91f303b8cce9@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270530T133000
+DURATION:PT2H
+SUMMARY:U19: TJ Tatran Kamenec pod Vtáčnikom – OFK Tovarníky U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 28. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c10d14e91f3039222c6@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270530T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – ŠK Cífer 1929
+DESCRIPTION:V. liga Severozápad\, 28. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec7330f@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270531T173000
+DURATION:PT2H
+SUMMARY:U9: OFK Veľké Ripňany – OFK Tovarníky U9
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 17. kolo\nZápas v
+ onku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fea9b02131318ec6b279@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270605T103000
+DURATION:PT2H
+SUMMARY:U15: OFK Tovarníky U15 – TJ - ŠK Radošina
+DESCRIPTION:IV. liga starších žiakov U15 ObFZ Topoľčany\, 22. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f7e6@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270606T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky U13 – OFK Krnča
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Topoľčany\, 22. kolo\nD
+ omáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aaed14e91f303b8cfda@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270606T133000
+DURATION:PT2H
+SUMMARY:U19: OFK Tovarníky U19 – ŠK Vegum Dolné Vestenice
+DESCRIPTION:IV. liga U19 ZsFZ\, 29. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c11d14e91f30392253d@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270606T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: FK Senica – OFK Tovarníky
+DESCRIPTION:V. liga Severozápad\, 29. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec73337@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270607T173000
+DURATION:PT2H
+SUMMARY:U9: OFK Tovarníky U9 – FC Topoľčany B
+DESCRIPTION:III. liga prípraviek U9 ObFZ Topoľčany\, 18. kolo\nDomáci 
+ zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4e4aaed14e91f303b8cf5d@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270612T133000
+DURATION:PT2H
+SUMMARY:U19: TJ Nový Život Veľké Uherce – OFK Tovarníky U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 30. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4d1c11d14e91f3039225ba@ofk-tovarniky.sportnet
+DTSTAMP:20261117T013504Z
+DTSTART;TZID=Europe/Bratislava:20270613T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Tovarníky – TJ Spartak Kvašov
+DESCRIPTION:V. liga Severozápad\, 30. kolo\nDomáci zápas
+END:VEVENT
+END:VCALENDAR
