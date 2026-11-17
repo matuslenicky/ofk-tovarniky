@@ -1,0 +1,241 @@
+{
+  "_zdroj": "Ručne zapísané len zo zverejnených zdrojov (uvedené pri každej časti). Nič nedopĺňať odhadom – chýbajúce údaje dodá klub.",
+  "nazov": "OFK Tovarníky",
+  "pravnyNazov": "Obecný futbalový klub Tovarníky",
+  "_pravnyNazov": "Sportnet (OFK /Obecný futbalový klub Tovarníky/), web obce tovarniky.eu – Šport",
+  "mesto": "Tovarníky",
+  "zalozenie": 1924,
+  "_zalozenie": "rok na erbe klubu (Sportnet: OFK 1924 Tovarníky)",
+  "farby": "modrá, červená a zlatá",
+  "_farby": "erb klubu (modrý štít, červené pole, zlaté klasy)",
+  "erbAlt": "Erb OFK Tovarníky: modrý štít s nápisom OFK 1924 Tovarníky, v červenom poli tri zlaté klasy a dve biele čepele, tri futbalové lopty",
+  "adresa": [
+    "Dr. Pantočku 235",
+    "955 01 Tovarníky"
+  ],
+  "ico": "31193986",
+  "_adresa": "web obce tovarniky.eu – Šport (adresa, IČO, kontakt)",
+  "kontakt": {
+    "osoba": "Miroslav Kastelovič",
+    "telefon": "+421 905 823 995",
+    "telefon2": "+421 903 208 657",
+    "email": "ofktovarniky@centrum.sk"
+  },
+  "_kontakt": "meno a telefóny: web obce (Šport, Obecný futbalový klub); e-mail: Sportnet (kontakt klubu)",
+  "sportnetUrl": "https://sportnet.sme.sk/futbalnet/k/ofk-tovarniky/",
+  "obecUrl": "https://www.tovarniky.eu/sport.html",
+  "staryWeb": "https://web.archive.org/web/2008/http://www.ofktovarniky.tym.sk/",
+  "_staryWeb": "doterajší web ofktovarniky.tym.sk (odkaz z Wikipédie) dnes vracia 403; v archíve len úvodná stránka z apríla 2008",
+  "socialne": {},
+  "_socialne": "Facebook ani Instagram klubu sa nenašli (17. 11. 2026)",
+  "ihrisko": {
+    "_zdroj": "Sportnet (názov, ulica, poloha); Tovarnícky občasník 2013 a 2014 (tribúna, rekonštrukcie, vlastníctvo areálu); zmluva o nájme v CRZ 2023 (šatne, sprchy, zasadacia miestnosť)",
+    "nazov": "Futbalové ihrisko OFK Tovarníky",
+    "kratky": "ihrisko v Tovarníkoch",
+    "adresa": [
+      "Dr. Pantočku",
+      "955 01 Tovarníky"
+    ],
+    "geo": [
+      48.5715181,
+      18.1438836
+    ],
+    "vlastnik": "obec Tovarníky",
+    "citat": "Ihrisko je naše!",
+    "citatZdroj": "Tovarnícky občasník 2014",
+    "pribeh": "Areál futbalových ihrísk patril dlho z väčšej časti súkromným spolumajiteľom, obec mala menšinový podiel. Po troch rokoch rokovaní ho obec odkúpila a od roku 2014 patrí celý areál futbalového ihriska obci Tovarníky.",
+    "tribuna": "V budove tribúny sú šatne, sprchy a zasadacia miestnosť. V roku 2013 obec kompletne zrekonštruovala obe kúpeľne a WC. Podľa občasníka si ich pôvodná podoba pamätala časy, keď ich ako dorastenci používali dnešní päťdesiatnici. V roku 2014 pribudla oprava podesty tribúny, komína a nové ozvučenie."
+  },
+  "obec": {
+    "_zdroj": "Wikipédia sk (Tovarníky); web obce tovarniky.eu – História obce",
+    "text": "Tovarníky ležia v okrese Topoľčany na potoku Chotina. Obec je doložená v rokoch 1172 – 1196, v rokoch 1600 – 1610 tu Žigmund Forgách postavil kaštieľ a po zániku hradu Topoľčany sa sem presťahovala správa panstva. V roku 1869 postavili Stummerovci cukrovar, ktorý pracoval do roku 1929, keď vyhorel. Pri kaštieli je chránený areál Tovarnícky park s jazierkom.",
+    "topolcany": "V rokoch 1976 – 1992 boli Tovarníky súčasťou mesta Topoľčany, od roku 1992 sú znova samostatnou obcou."
+  },
+  "historia": [
+    {
+      "rok": "1924",
+      "text": "Začiatok organizovaného futbalu v Tovarníkoch. Rok 1924 nesie klub vo svojom erbe.",
+      "zdroj": "erb klubu"
+    },
+    {
+      "rok": "1976 – 1992",
+      "text": "Tovarníky sú súčasťou mesta Topoľčany. Od roku 1992 sú znova samostatnou obcou.",
+      "zdroj": "Wikipédia"
+    },
+    {
+      "rok": "2008",
+      "text": "V zime sa mení vedenie klubu, tajomníkom sa stáva Miroslav Kastelovič. Cieľ jari: záchrana v V. lige. Klub sa chce viac venovať mládeži a do novej sezóny založiť prípravku.",
+      "zdroj": "doterajší web klubu (apríl 2008)"
+    },
+    {
+      "rok": "2012",
+      "text": "Na konci roka sú prípravka aj žiaci na prvom mieste svojich tabuliek.",
+      "zdroj": "Tovarnícky občasník 2013"
+    },
+    {
+      "rok": "2013",
+      "text": "Obec kompletne rekonštruuje kúpeľne a WC v tribúne futbalového klubu.",
+      "zdroj": "Tovarnícky občasník 2013"
+    },
+    {
+      "rok": "2014",
+      "text": "„Ihrisko je naše!“ Po troch rokoch rokovaní patrí celý areál futbalového ihriska obci.",
+      "zdroj": "Tovarnícky občasník 2014"
+    },
+    {
+      "rok": "2020",
+      "text": "V Slovenskom pohári prichádza do Tovarník prvoligová Podbrezová (0 : 5).",
+      "zdroj": "Wikipédia (2020–21 Slovak Cup)"
+    },
+    {
+      "rok": "2022",
+      "text": "Pohárové derby: Tovarníky vyhrávajú v Topoľčanoch 1 : 0.",
+      "zdroj": "Wikipédia (2022–23 Slovak Cup)"
+    },
+    {
+      "rok": "2024",
+      "text": "Ďalšie pohárové derby v Topoľčanoch pred 1 250 divákmi: 0 : 0, Topoľčany postupujú po penaltách 5 : 3.",
+      "zdroj": "Wikipédia (Slovnaft Cup 2024/2025)"
+    }
+  ],
+  "pohar": {
+    "_zdroj": "Wikipédia en (2020–21, 2021–22, 2022–23, 2023–24, 2024–25 Slovak Cup) a sk (Slovnaft Cup 2023/2024, 2024/2025); skóre v poradí domáci : hostia",
+    "sezony": [
+      {
+        "sezona": "2020/21",
+        "zapasy": [
+          [
+            "OFK Solčany",
+            "OFK Tovarníky",
+            "0 : 2",
+            ""
+          ],
+          [
+            "OFK Tovarníky",
+            "FK Železiarne Podbrezová",
+            "0 : 5",
+            "prvoligový súper"
+          ]
+        ]
+      },
+      {
+        "sezona": "2021/22",
+        "zapasy": [
+          [
+            "Slovan Zemianske Kostolany",
+            "OFK Tovarníky",
+            "0 : 5",
+            ""
+          ],
+          [
+            "OFK Solčany",
+            "OFK Tovarníky",
+            "1 : 1",
+            "penalty 4 : 5"
+          ],
+          [
+            "OFK Tovarníky",
+            "FC ViOn Zlaté Moravce",
+            "0 : 3",
+            "prvoligový súper"
+          ]
+        ]
+      },
+      {
+        "sezona": "2022/23",
+        "zapasy": [
+          [
+            "FC Topoľčany",
+            "OFK Tovarníky",
+            "0 : 1",
+            "derby"
+          ],
+          [
+            "OFK Tovarníky",
+            "Spartak Myjava",
+            "0 : 3",
+            ""
+          ]
+        ]
+      },
+      {
+        "sezona": "2023/24",
+        "zapasy": [
+          [
+            "OFK Solčany",
+            "OFK Tovarníky",
+            "0 : 2",
+            "400 divákov"
+          ],
+          [
+            "OFK Tovarníky",
+            "FK Junior Kanianka",
+            "5 : 0",
+            "300 divákov"
+          ],
+          [
+            "OFK Tovarníky",
+            "FC ViOn Zlaté Moravce",
+            "0 : 3",
+            ""
+          ]
+        ]
+      },
+      {
+        "sezona": "2024/25",
+        "zapasy": [
+          [
+            "FC Topoľčany",
+            "OFK Tovarníky",
+            "0 : 0",
+            "derby, penalty 5 : 3, 1 250 divákov"
+          ]
+        ]
+      }
+    ]
+  },
+  "derby": {
+    "_zdroj": "Wikipédia sk/en (pohár 2022/23 a 2024/25, Tovarníky 1976 – 1992 súčasťou Topoľčian); Sportnet (FC Topoľčany v IV. lige 2026/27)",
+    "super": "FC Topoľčany",
+    "space": "issf_club_9553",
+    "text": "Tovarníky susedia s Topoľčanmi a v rokoch 1976 – 1992 boli dokonca časťou mesta. Na ihrisku sa susedia stretli dvakrát v Slovenskom pohári, oba razy v Topoľčanoch.",
+    "zapasy": [
+      {
+        "rok": "2022",
+        "kolo": "Slovnaft Cup, 1. kolo",
+        "skore": "0 : 1",
+        "vysledok": "w",
+        "text": "Tovarníky vyhrali na štadióne v Topoľčanoch."
+      },
+      {
+        "rok": "2024",
+        "kolo": "Slovnaft Cup, 1. kolo",
+        "skore": "0 : 0",
+        "vysledok": "l",
+        "text": "Bez gólov, penalty 5 : 3 pre Topoľčany, 1 250 divákov."
+      }
+    ]
+  },
+  "sutaze": {
+    "_pozn": "čitateľné názvy súťaží namiesto skratiek a názvov so sponzormi zo Sportnetu",
+    "Slovnaft Cup": "Slovnaft Cup",
+    "V. liga Severozápad Macron | yoursport ZsFZ": "V. liga Severozápad",
+    "IV. liga  U19  Macron | yoursport  ZsFZ": "IV. liga U19 ZsFZ",
+    "IV. liga U19 Macron | yoursport ZsFZ": "IV. liga U19 ZsFZ",
+    "IV.liga - Ž - U15 - ObFZ TO": "IV. liga starších žiakov U15 ObFZ Topoľčany",
+    "IV. liga - Ž - U13 - ObFZ TO": "IV. liga mladších žiakov U13 ObFZ Topoľčany",
+    "III. liga-prípravka-U11- ObFZ TO": "III. liga prípraviek U11 ObFZ Topoľčany",
+    "III. liga-prípravka-U09- ObFZ TO": "III. liga prípraviek U9 ObFZ Topoľčany"
+  },
+  "nazvy": {
+    "_pozn": "čitateľné názvy súperov namiesto úradných názvov a veľkých písmen zo Sportnetu",
+    "Trenčiansky Futbalový Klub Opatová": "TFK Opatová",
+    "Futbalový klub Senica": "FK Senica",
+    "ŠK LR CRYSTAL": "ŠK LR Crystal",
+    "FK TEMPO Partizánske": "FK Tempo Partizánske",
+    "Mestský futbalový klub Baník Handlová": "MFK Baník Handlová",
+    "ŠPORTOVÉ CENTRUM CHYNORANY": "ŠC Chynorany",
+    "ŠK VEGUM Dolné Vestenice": "ŠK Vegum Dolné Vestenice",
+    "Futbalový klub Koniarovce": "FK Koniarovce"
+  }
+}
