@@ -242,31 +242,44 @@ html:not(.js) .menu-btn { display: none; }
   .mp--big .mp-score { font-size: 3.1rem; margin-top: 14px; }
 }
 
-/* ---- zoznam zápasov ---- */
-.mlist { list-style: none; margin: 0; padding: 0; border-top: 3px solid var(--navy); }
-.mrow { border-bottom: 1px solid var(--line); }
-.mrow-in { display: grid; grid-template-columns: 58px 30px minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 11px 4px; color: var(--ink); text-decoration: none; min-height: 62px; }
-a.mrow-in:hover { background: var(--straw-l); }
-a.mrow-in:hover .mr-opp { text-decoration: underline; }
-.mr-date { display: flex; flex-direction: column; line-height: 1.15; white-space: nowrap; font: 700 .9375rem/1.15 var(--disp); color: var(--navy); }
-.mr-day { font: 400 .75rem/1.2 var(--text); color: var(--muted); }
-.mrow .logo { width: 30px; height: 30px; object-fit: contain; }
-.logo--txt { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--straw-l); color: var(--navy); font: 700 .6875rem/1 var(--text); }
-.mr-main { display: flex; flex-direction: column; min-width: 0; }
-.mr-opp { font-weight: 700; line-height: 1.25; overflow-wrap: anywhere; }
-.mr-sub { font-size: .8125rem; color: var(--muted); line-height: 1.35; }
-.mr-team { display: inline-block; margin-right: 6px; padding: 1px 7px; border-radius: 999px; background: var(--navy); color: #fff; font-size: .75rem; }
-.mr-score, .mr-time { min-width: 56px; padding: 7px 8px 6px; border-radius: 6px; text-align: center; font: 700 1.05rem/1 var(--disp); font-variant-numeric: lining-nums; }
+/* ---- zoznam zápasov: program ako trhací kalendár, výsledky ako snopy ---- */
+.mlist { list-style: none; margin: 0; padding: 0; }
+.mlist--leaves { display: grid; gap: 8px; }
+.leaf { display: grid; grid-template-columns: 58px minmax(0, 1fr) auto; align-items: center; gap: 14px; padding: 8px 14px 8px 8px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); color: var(--ink); text-decoration: none; }
+a.leaf:hover { border-color: var(--navy); }
+a.leaf:hover .leaf-o span { text-decoration: underline; }
+.leaf-p { display: flex; flex-direction: column; align-items: center; overflow: hidden; border-radius: 8px; background: var(--paper); box-shadow: inset 0 0 0 1px var(--line); text-align: center; }
+.leaf-m { align-self: stretch; padding: 3px 0 2px; background: var(--red); color: #fff; font: 700 .6875rem/1.2 var(--text); letter-spacing: .12em; text-transform: uppercase; }
+.leaf-d { font: 700 1.6rem/1.05 var(--disp); color: var(--navy); }
+.leaf-w { padding-bottom: 3px; font: 600 .6875rem/1.2 var(--text); text-transform: uppercase; color: var(--muted); }
+.leaf-b { display: flex; flex-direction: column; min-width: 0; gap: 2px; }
+.leaf-o { display: flex; align-items: center; gap: 8px; font-weight: 700; line-height: 1.25; }
+.leaf-o .logo { width: 26px; height: 26px; flex: none; object-fit: contain; }
+.leaf-o span { overflow-wrap: anywhere; }
+.leaf-k { font-size: .8125rem; color: var(--muted); }
+.leaf-t { padding: 6px 10px 5px; border-radius: 999px; box-shadow: inset 0 0 0 2px var(--navy); font: 700 1rem/1 var(--disp); color: var(--navy); white-space: nowrap; }
+.mlist--sheaves { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); }
+.sheaf { position: relative; display: flex; flex-direction: column; height: 100%; padding: 12px 14px 12px; border-radius: 12px; background: var(--paper); border: 1px solid var(--line); color: var(--ink); text-decoration: none; overflow: hidden; }
+a.sheaf:hover { border-color: var(--navy); }
+.sheaf-k { font-size: .75rem; color: var(--muted); padding-right: 22px; }
+.sheaf-s { margin: 4px 0 6px; font: 700 2rem/1 var(--disp); color: var(--navy); }
+.sheaf-none { font: 600 .8125rem/1.3 var(--text); color: var(--muted); }
+.sheaf-o { display: flex; align-items: center; gap: 6px; margin-top: auto; font-size: .875rem; font-weight: 700; line-height: 1.2; }
+.sheaf-o .logo { width: 24px; height: 24px; flex: none; object-fit: contain; }
+.sheaf-o span { overflow-wrap: anywhere; min-width: 0; }
+.sheaf-w { position: absolute; top: 10px; right: 10px; width: 14px; height: 38px; color: var(--line); }
+.sheaf--w .sheaf-w { color: var(--gold); }
+.sheaf--d .sheaf-w { color: #b9b2a0; }
+.sheaf--l .sheaf-w { color: #e9a6aa; }
+.sheaf--w { background: linear-gradient(180deg, #fff8e1, var(--paper) 60%); }
 .res-bg--w { background: var(--win); color: #fff; }
 .res-bg--d { background: var(--draw); color: #fff; }
 .res-bg--l { background: var(--loss); color: #fff; }
-.mr-score--none { font: 600 .75rem/1.1 var(--text); color: var(--muted); background: var(--flour); }
-.mr-time { box-shadow: inset 0 0 0 2px var(--navy); color: var(--navy); }
+.logo--txt { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--straw-l); color: var(--navy); font: 700 .6875rem/1 var(--text); }
 .month + .month { margin-top: 26px; }
 .month-h { font: 700 .8125rem/1.2 var(--text); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
 .cols2--list .h2 { margin-bottom: 18px; }
 .empty { color: var(--muted); padding: 12px 0; }
-@media (max-width: 359.98px) { .mrow-in { grid-template-columns: 50px 26px minmax(0, 1fr) auto; gap: 8px; } }
 
 /* filtre */
 html:not(.js) .filters { display: none; }
