@@ -30,7 +30,7 @@
 .nav a:hover { background: var(--ivory); }
 .nav a[aria-current="page"] { color: var(--red); }
 .menu-btn { background: var(--navy); color: #fff; border: 0; border-radius: 6px; font-weight: 600; }
-@media (max-width: 379.98px) { .brand-s { display: none; } }
+@media (max-width: 379.98px) { .brand-s { display: none; } .brand-n { font-size: 1rem; } .hdr-in { gap: 10px; } }
 .menu-k { font-family: var(--disp); font-weight: 700; }
 .menu-nav a { font: 700 1.9rem/1.1 var(--disp); letter-spacing: -.02em; border-bottom: 1px solid rgba(255, 255, 255, .18); }
 .menu-nav a[aria-current="page"] { color: #f0c54a; }
@@ -43,6 +43,8 @@
 .split--page { padding-top: 0; }
 .split-l { padding: 28px 26px 24px; background: var(--ivory); border-radius: 10px; }
 .split-crest { height: 132px; width: auto; margin-bottom: 18px; }
+/* na telefóne je erb aj v hlavičke: v paneli menší, nech je najbližší zápas bližšie k hornému okraju */
+@media (max-width: 999.98px) { .split-l { padding: 22px 20px 20px; } .split-crest { height: 88px; margin-bottom: 14px; } }
 .split-h { font-size: clamp(2.2rem, 6vw, 3rem); line-height: 1.02; color: var(--navy); }
 .split-sub { margin-top: 8px; color: var(--muted); }
 .next { margin-top: 26px; padding-top: 20px; border-top: 1px solid #d9d2bd; }
@@ -106,6 +108,12 @@
 .chip[aria-pressed="true"] { background: var(--navy); color: #fff; }
 .teams a { border-bottom: 1px solid var(--line); }
 .teams-n { font-size: 1.5rem; color: var(--navy); }
+/* „A-mužstvo“ zo Sportnetu sa nezmestí do 80px stĺpca jadra (zalomilo sa na „A-“ a prekrylo ligu):
+   prvý stĺpec podľa najdlhšieho názvu, cez subgrid rovnako široký vo všetkých riadkoch */
+.teams { display: grid; grid-template-columns: max-content minmax(0, 1fr) auto; column-gap: 16px; }
+.teams li, .teams a { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; }
+.teams-n { white-space: nowrap; }
+@media (max-width: 559.98px) { .teams-n { font-size: 1.2rem; } }
 .teams-s { font-weight: 600; }
 .join { background: var(--ivory); border-radius: 10px; }
 .stat b { font-size: 2.2rem; color: var(--navy); }

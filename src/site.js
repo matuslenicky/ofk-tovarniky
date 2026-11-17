@@ -19,17 +19,18 @@ add('', {
   body: (R) => {
     const m = nextA || lastA;
     const row = A.table?.rows.find((r) => r.our);
-    const wl = winterLine();
+    // v zimnej prestávke netreba odpočet „o 109 dní“ ani vetu, ktorá opakuje dátum a súpera
+    const wl = m && !m.past ? '' : winterLine();
     return `<div class="wrap split">
   <aside class="split-l" aria-labelledby="hero-h">
     <img class="split-crest" src="${R}img/erb-240.webp" alt="${esc(club.erbAlt)}" width="${Math.round(132 * CREST_R)}" height="132">
     <h1 class="split-h" id="hero-h">OFK Tovarníky</h1>
     <p class="split-sub">Futbal od roku ${club.zalozenie} · ${esc(A.leagueName)}${A.pos ? ` · ${A.pos}. miesto` : ''}</p>
     ${m ? `<div class="next">
-      <p class="next-k">${m.past ? 'Posledný zápas' : 'Najbližší zápas'}</p>
-      <p class="next-o">${m.home ? 'doma proti' : 'vonku,'} <b>${esc(m.opponent)}</b></p>
+      <p class="next-k">${m.past ? 'Posledný zápas' : winterNow ? 'Prvý zápas po zimnej prestávke' : 'Najbližší zápas'}</p>
+      <p class="next-o">${m.home ? 'doma proti' : 'vonku,'} <b>${glueAbbr(esc(m.opponent))}</b></p>
       <p class="next-d"><time datetime="${m.date}">${dLong(m.date)}</time>${m.past ? (m.score ? ` · <b>${m.gf}:${m.ga}</b> ${RES[m.res].toLowerCase()}` : '') : ` · ${esc(m.time || '')}`}</p>
-      ${m.past ? '' : `<p class="next-cd"><span class="cd" data-kickoff="${isoLocal(m.date, m.time)}" hidden></span></p>`}
+      ${m.past || winterNow ? '' : `<p class="next-cd"><span class="cd" data-kickoff="${isoLocal(m.date, m.time)}" hidden></span></p>`}
       <p class="btns">${m.past ? '' : `<a class="btn" href="${R}kalendar/zapas-${m.id}.ics" download>${I.cal}Do kalendára</a>`}<a class="btn btn--line" href="${R}${m.url}">Detail zápasu</a></p>
     </div>` : ''}
     ${wl ? `<p class="split-pause">${wl}</p>` : ''}
@@ -76,7 +77,6 @@ add('klub/', {
     <section class="block" aria-labelledby="ob-h">
       ${secHead('Tovarníky', 'ob-h', '', 'Obec')}
       <p>${esc(club.obec.text)}</p>
-      <p>${esc(club.obec.topolcany)}</p>
       <p class="note">Zdroje: Tovarnícky občasník 2013 a 2014, Wikipédia, web obce, archív bývalého webu klubu, Sportnet.</p>
     </section>
   </div>
