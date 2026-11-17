@@ -35,8 +35,8 @@ add('', {
     ${wl ? `<p class="split-pause">${wl}</p>` : ''}
   </aside>
   <div class="split-r">
-    <section class="block" aria-labelledby="res-h">${secHead('Posledné výsledky', 'res-h', more(`${R}zapasy/#z-vys`, 'Všetky'))}${fxList(results.filter((x) => x.score).slice(0, 6), R)}</section>
-    <section class="block" aria-labelledby="prog-h">${secHead('Program', 'prog-h', more(`${R}zapasy/`, 'Celý program'))}${upcoming.length ? fxList(upcoming.slice(0, 5), R) : '<p>Ďalšie zápasy zatiaľ nie sú vyžrebované.</p>'}</section>
+    <section class="block" aria-labelledby="res-h">${secHead('Posledné výsledky', 'res-h', more(`${R}zapasy/#z-vys`, 'Všetky'))}${fxList(homeRes(6), R)}</section>
+    <section class="block" aria-labelledby="prog-h">${secHead('Program', 'prog-h', more(`${R}zapasy/`, 'Celý program'))}${homeUp(5).length ? fxList(homeUp(5), R) : '<p>Ďalšie zápasy zatiaľ nie sú vyžrebované.</p>'}</section>
     ${A.table ? `<section class="block" aria-labelledby="tab-h">${secHead(esc(A.leagueName), 'tab-h', more(`${R}tabulky/`, 'Tabuľky'), row ? `Áčko · ${row.pts} ${pw(row.pts, 'bod', 'body', 'bodov')}` : 'Áčko')}${tableHtml(A.table, R)}</section>` : ''}
     <section class="block block--derby" aria-labelledby="der-h">
       ${secHead('Derby s Topoľčanmi', 'der-h', more(`${R}klub/`, 'Klub'))}
