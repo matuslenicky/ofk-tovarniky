@@ -164,7 +164,7 @@ function wreath(n, label) {
 const NAV = [['zapasy/', 'Zápasy'], ['tabulky/', 'Tabuľky'], ['timy/', 'Tímy'], ['mladez/', 'Mládež'], ['klub/', 'Klub'], ['ihrisko/', 'Ihrisko'], ['kontakt/', 'Kontakt']];
 const IH = club.ihrisko;
 const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${IH.geo.join(',')}`;
-const mapyUrl = `https://mapy.com/s/?q=${IH.geo.join(',')}`;
+const mapyUrl = `https://mapy.com/fnc/v1/showmap?mapset=basic&amp;center=${IH.geo[1]},${IH.geo[0]}&amp;zoom=16&amp;marker=true`; // mapy.com/s/?q= vracia 404
 const A = teams[0];
 const ligaG = A.leagueName.replace(/^([IVX]+\.) liga\b.*/, '$1 ligy'); // „V. liga Severozápad“ -> „V. ligy“ (Na čele V. ligy, Tabuľka V. ligy)
 const DESC = `${club.nazov} – futbal v Tovarníkoch od roku ${club.zalozenie}. Zápasy, výsledky, tabuľky a súpisky áčka (${A.leagueName}) aj ${plural(teams.length - 1, 'mládežníckeho tímu', 'mládežníckych tímov', 'mládežníckych tímov')}, derby s Topoľčanmi a ihrisko.`;
